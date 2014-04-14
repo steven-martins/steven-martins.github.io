@@ -1,6 +1,7 @@
-Lenteurs soudaines d'Emacs
-========================
-
+---
+layout: post
+title: Lenteurs soudaines d'Emacs
+---
 
 Si comme moi, vous utilisez emacs un peu partout. Vous avez surement été confronté à des problèmes de lenteur lors de son lancement (5-15 secondes).
 Ses lenteurs surviennent généralement quand internet fait défaut (ou netsoul) ou bien quand votre distribution linux préférée est fraichement installée et mal/non configurée.
