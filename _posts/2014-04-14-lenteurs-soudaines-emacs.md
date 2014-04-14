@@ -3,6 +3,7 @@ layout: post
 title: Lenteurs soudaines d'Emacs
 ---
 
+
 Si comme moi, vous utilisez emacs un peu partout. Vous avez surement été confronté à des problèmes de lenteur lors de son lancement (5-15 secondes).
 Ses lenteurs surviennent généralement quand internet fait défaut (ou netsoul) ou bien quand votre distribution linux préférée est fraichement installée et mal/non configurée.
 
@@ -117,7 +118,7 @@ J'ai décidé de rechercher qui appelait cette fonction:
 $ find . -name "*.c" | xargs grep -n "init_system_name"
 ./src/editfns.c:101:  init_system_name ();
 ./src/sysdep.c:1345:init_system_name (void)
-./src/w32proc.c:2614:        is to call init_system_name, saving and restoring the
+./src/w32proc.c:2614:        is to call init_system_name, saving and restoring
 ./src/w32proc.c:2619:     init_system_name ();
 ```
 
