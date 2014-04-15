@@ -68,9 +68,9 @@ Un rapide *find* m'a permis de restreindre les recherches à un seul fichier "sr
 ./src/sysdep.c:1469:  xfree (hostname_alloc);
 ```
 
-#### init_system_name (void) l.1345
+#### init\_system\_name (void) l.1345
 
-Ces appels sont contenus dans une fonction nommée "init_system_name (void)" (source code: [init_system_name])
+Ces appels sont contenus dans une fonction nommée "init\_system\_name (void)" (source code: [init\_system\_name])
 Cette fonction à pour objectif, semble-t-il, de déterminer le véritable nom de la machine (n'oubliez pas qu'emacs n'est pas un simple éditeur, mais embarque un système de plugin très complet basé sur le Lisp).
 
 La première partie du code est dédié à la recherche du hostname (uname, ou gethostname).
@@ -174,7 +174,7 @@ Ici poll est bloquant (avec un timeout de 5 secondes), il est chargé d'attendre
 
 [Github emacs]:https://github.com/mirrors/emacs
 [sysdep.c]:https://github.com/mirrors/emacs/blob/master/src/sysdep.c
-[init_system_name]:https://github.com/mirrors/emacs/blob/master/src/sysdep.c#L1345
+[init\_system\_name]:https://github.com/mirrors/emacs/blob/master/src/sysdep.c#L1345
 [editfns.c:101]:https://github.com/mirrors/emacs/blob/master/src/editfns.c#L101
 [1562]:https://github.com/mirrors/emacs/blob/master/src/emacs.c#L1562
 [main d'emacs]:https://github.com/mirrors/emacs/blob/master/src/emacs.c#L705
